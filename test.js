@@ -6,6 +6,15 @@
 
 var n=5
 var arr=[3,2,1,2,3]
+// var swaparr=[]
+// for(var i=0;i<n;i+2){
+//     if(arr.contains(arr[i+1])){
+//         swaparr.push(arr[i+1])
+//         swaparr.push(arr[i])
+//     }
+// }
+// console.log(swaparr)
+
 for(var i=0;i<n;i++){
     if(i%2==0){
         if(i+1<n){
